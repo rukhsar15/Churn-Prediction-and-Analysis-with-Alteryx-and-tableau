@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <EngineSettings EngineDll="SdkEnginePlugin.dll" EngineDllEntryPoint="SdkEnginePlugin" />
+      <GuiSettings Plugin="CloudMLPredict">
+        <Position x="600" y="200" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <DefaultAnnotationText />
+          <Left value="False" />
+          <Name />
+        </Annotation>
+        <Configuration>
+          <inputUrl>https://us1.alteryxcloud.com/automl/</inputUrl>
+          <url>https://us1.alteryxcloud.com/automl/srv</url>
+          <validCredentials>false</validCredentials>
+          <instanceType>trifacta</instanceType>
+        </Configuration>
+        <SdkSettings Manifest="True" Language="Python" PluginDir="CloudMLPredict" Transport="arrow">
+          <InputConnections>
+            <Connection AllowMultiple="False" Label="" Name="Input" Optional="False" Type="Connection" />
+          </InputConnections>
+          <OutputConnections>
+            <Connection AllowMultiple="False" Label="P" Name="Predictions" Optional="False" Type="Connection" />
+          </OutputConnections>
+        </SdkSettings>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Annotation includeToolName="False" on="True" />
+    <CancelOnError value="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <DisableAllOutput value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <GlobalRecordLimit value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Memory default="True" />
+    <MetaInfo>
+      <Author />
+      <CategoryName />
+      <Company />
+      <Copyright />
+      <Description />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <Name />
+      <NameIsFileName value="True" />
+      <RootToolName />
+      <SearchTags />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="cfcad182-2ec6-4f1e-ac1b-51f55e2f6833" />
+      </Telemetry>
+      <ToolInDb value="False" />
+      <ToolVersion />
+      <WorkflowId value="cfcad182-2ec6-4f1e-ac1b-51f55e2f6833" />
+    </MetaInfo>
+    <RunWithE2 value="True" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <TempFiles default="True" />
+    <ZoomLevel value="0" />
+  </Properties>
+</AlteryxDocument>
